@@ -3,6 +3,7 @@ from tkinter import messagebox
 from gui import EthernetChatGUI
 import netifaces
 
+
 def select_interface():
     # List interfaces and ask user to select one
     interfaces = netifaces.interfaces()

@@ -1,3 +1,4 @@
+#error: This code is a simple implementation of a progress bar using tkinter in Python.
 import tkinter as tk
 from tkinter import ttk
 
