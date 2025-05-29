@@ -7,7 +7,7 @@ def select_interface():
     interfaces = netifaces.interfaces()
     root = tk.Tk()
     root.title("Select Network Interface")
-    root.geometry("300x100")
+    root.geometry("400x200")
     selected = tk.StringVar(value=interfaces[0] if interfaces else "")
 
     def on_ok():
